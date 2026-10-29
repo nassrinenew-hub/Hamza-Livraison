@@ -31,3 +31,5 @@ jobs:
         with:
           name: Hamza-Livraison-APK
           path: src/app/build/outputs/apk/debug/app-debug.apk
+          on:
+  workflow_dispatch:
